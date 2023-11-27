@@ -18,6 +18,12 @@ public class Inquilino{
     private String cpf;
     private Long idContrato = null;
 
+
+    public Inquilino(String nome, String cpf){
+        this.nome = nome;
+        this.cpf = cpf;
+    }
+
     public Long getId() {
         return id;
     }

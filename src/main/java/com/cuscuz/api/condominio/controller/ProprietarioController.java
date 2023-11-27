@@ -40,6 +40,7 @@ public class ProprietarioController {
 
     @PostMapping
     public Proprietario cadastrarProprietario(@RequestBody Proprietario contrato){
+        System.out.println("Se liga que chegou aqui " + contrato);
         return proprietarioService.cadastrarProprietario(contrato);
     }
 

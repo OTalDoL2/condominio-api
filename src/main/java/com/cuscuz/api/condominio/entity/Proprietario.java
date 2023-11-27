@@ -20,6 +20,12 @@ public class Proprietario{
     private String cpf;
     private List<Long> idContratos;
 
+    public Proprietario(String nome, String cpf){
+        this.nome = nome;
+        this.cpf = cpf;
+
+    }
+
     public Long getId() {
         return id;
     }
